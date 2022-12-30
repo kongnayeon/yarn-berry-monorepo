@@ -7,6 +7,8 @@
     "packages/*"
   ],
   "scripts": {
+    "admin": "yarn workspace admin dev",
+    "ticket": "yarn workspace ticket dev",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
@@ -24,8 +26,7 @@
   },
   "packageManager": "yarn@3.3.1",
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@next/font": "13.1.1",
+    "@next/font": "^13.1.1",
     "request": "^2.88.2",
     "yarn": "^1.22.19"
   },
